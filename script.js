@@ -367,6 +367,7 @@ Orchestra.addEventListener("click", function onClick(){
         Orchestra.classList.remove('scale-up-center');
 } else if( iOrchestra%2 == !0){
     Orchestra.style.background = "rgb(230, 204, 255)";
+    Orchestra.style.color = "purple";
     Orchestra.style.borderColor = "rgb(145, 107, 242)";
     Orchestra.classList.add('scale-up-center');
 }
@@ -385,6 +386,7 @@ DIY.addEventListener("click", function onClick(){
         DIY.classList.remove('scale-up-center');
 } else if( iDIY%2 == !0){
     DIY.style.background = "rgb(230, 204, 255)";
+    DIY.style.color = "purple";
     DIY.style.borderColor = "rgb(145, 107, 242)";
     DIY.classList.add('scale-up-center');
 }
@@ -403,6 +405,7 @@ rainbow.addEventListener("click", function onClick(){
         rainbow.classList.remove('scale-up-center');
 } else if( irainbow%2 == !0){
     rainbow.style.background = "rgb(230, 204, 255)";
+    rainbow.style.color = "purple";
     rainbow.style.borderColor = "rgb(145, 107, 242)";
     rainbow.classList.add('scale-up-center');
 }
@@ -421,6 +424,7 @@ Farmer.addEventListener("click", function onClick(){
         Farmer.classList.remove('scale-up-center');
 } else if( iFarmer%2 == !0){
     Farmer.style.background = "rgb(230, 204, 255)";
+    Farmer.style.color = "purple";
     Farmer.style.borderColor = "rgb(145, 107, 242)";
     Farmer.classList.add('scale-up-center');
 }
@@ -439,6 +443,7 @@ Drama.addEventListener("click", function onClick(){
     Drama.classList.remove('scale-up-center');
 } else if( iDrama%2 == !0){
     Drama.style.background = "rgb(230, 204, 255)";
+    Drama.style.color = "purple";
     Drama.style.borderColor = "rgb(145, 107, 242)";
     Drama.classList.add('scale-up-center');
 }
@@ -457,6 +462,7 @@ lala.addEventListener("click", function onClick(){
     lala.classList.remove('scale-up-center');
 } else if( ilala%2 == !0){
     lala.style.background = "rgb(230, 204, 255)";
+    lala.style.color = "purple";
     lala.style.borderColor = "rgb(145, 107, 242)";
     lala.classList.add('scale-up-center');
 }
@@ -475,6 +481,7 @@ flat.addEventListener("click", function onClick(){
         flat.classList.remove('scale-up-center');
 } else if( iflat%2 == !0){
     flat.style.background = "rgb(230, 204, 255)";
+    flat.style.color = "purple";
     flat.style.borderColor = "rgb(145, 107, 242)";
     flat.classList.add('scale-up-center');
 }
@@ -493,6 +500,7 @@ HappyA.addEventListener("click", function onClick(){
         HappyA.classList.remove('scale-up-center');
 } else if( iHappyA%2 == !0){
     HappyA.style.background = "rgb(230, 204, 255)";
+    HappyA.style.color = "purple";
     HappyA.style.borderColor = "rgb(145, 107, 242)";
     HappyA.classList.add('scale-up-center');
 }
@@ -511,6 +519,7 @@ WalkA.addEventListener("click", function onClick(){
         WalkA.classList.remove('scale-up-center');
 } else if( iWalkA%2 == !0){
     WalkA.style.background = "rgb(230, 204, 255)";
+    WalkA.style.color = "purple";
     WalkA.style.borderColor = "rgb(145, 107, 242)";
     WalkA.classList.add('scale-up-center');
 }
@@ -529,7 +538,122 @@ lego.addEventListener("click", function onClick(){
         lego.classList.remove('scale-up-center');
 } else if( ilego%2 == !0){
     lego.style.background = "rgb(230, 204, 255)";
+    lego.style.color = "purple";
     lego.style.borderColor = "rgb(145, 107, 242)";
     lego.classList.add('scale-up-center');
+}
+});
+
+const Art = document.getElementById('Art');
+const ArtOrange = Art.style.background = "orange";
+let iArt = 0;
+
+Art.addEventListener("click", function onClick(){
+    iArt++;
+    if ( iArt%2 == 0){
+        Art.style.background = "orange";
+        Art.style.color = "white";
+        Art.style.borderColor = "red";
+        Art.classList.remove('scale-up-center');
+} else if( iArt%2 == !0){
+    Art.style.background = "rgb(230, 204, 255)";
+    Art.style.color = "purple";
+    Art.style.borderColor = "rgb(145, 107, 242)";
+    Art.classList.add('scale-up-center');
+}
+});
+
+const Hand = document.getElementById('Hand');
+const HandOrange = Hand.style.background = "orange";
+let iHand = 0;
+
+Hand.addEventListener("click", function onClick(){
+    iHand++;
+    if ( iHand%2 == 0){
+        Hand.style.background = "orange";
+        Hand.style.color = "white";
+        Hand.style.borderColor = "red";
+        Hand.classList.remove('scale-up-center');
+} else if( iHand%2 == !0){
+    Hand.style.background = "rgb(230, 204, 255)";
+    Hand.style.color = "purple";
+    Hand.style.borderColor = "rgb(145, 107, 242)";
+    Hand.classList.add('scale-up-center');
+}
+});
+
+const Coding  = document.getElementById('Coding');
+const CodingOrange = Coding.style.background = "orange";
+let iCoding = 0;
+
+Coding.addEventListener("click", function onClick(){
+    iCoding++;
+    if ( iCoding%2 == 0){
+        Coding.style.background = "orange";
+        Coding.style.color = "white";
+        Coding.style.borderColor = "red";
+        Coding.classList.remove('scale-up-center');
+} else if( iCoding%2 == !0){
+    Coding.style.background = "rgb(230, 204, 255)";
+    Coding.style.color = "purple";
+    Coding.style.borderColor = "rgb(145, 107, 242)";
+    Coding.classList.add('scale-up-center');
+}
+});
+
+const Sing  = document.getElementById('Sing');
+const SingOrange = Sing.style.background = "orange";
+let iSing = 0;
+
+Sing.addEventListener("click", function onClick(){
+    iSing++;
+    if ( iSing%2 == 0){
+        Sing.style.background = "orange";
+        Sing.style.color = "white";
+        Sing.style.borderColor = "red";
+        Sing.classList.remove('scale-up-center');
+} else if( iSing%2 == !0){
+    Sing.style.background = "rgb(230, 204, 255)";
+    Sing.style.color = "purple";
+    Sing.style.borderColor = "rgb(145, 107, 242)";
+    Sing.classList.add('scale-up-center');
+}
+});
+
+const Ball  = document.getElementById('Ball');
+const BallOrange = Ball.style.background = "orange";
+let iBall = 0;
+
+Ball.addEventListener("click", function onClick(){
+    iBall++;
+    if ( iBall%2 == 0){
+        Ball.style.background = "orange";
+        Ball.style.color = "white";
+        Ball.style.borderColor = "red";
+        Ball.classList.remove('scale-up-center');
+} else if( iBall%2 == !0){
+    Ball.style.background = "rgb(230, 204, 255)";
+    Ball.style.color = "purple";
+    Ball.style.borderColor = "rgb(145, 107, 242)";
+    Ball.classList.add('scale-up-center');
+}
+});
+
+const Scouts  = document.getElementById('Scouts');
+const ScoutsOrange = Scouts.style.background = "orange";
+let iScouts = 0;
+
+Scouts.addEventListener("click", function onClick(){
+    iScouts++;
+    if ( iScouts%2 == 0){
+        Scouts.style.background = "orange";
+        Scouts.style.color = "white";
+        Scouts.style.borderColor = "red";
+        Scouts.classList.remove('scale-up-center');
+} else if( iScouts%2 == !0){
+    Scouts.style.background = "rgb(230, 204, 255)";
+    Scouts.style.color = "purple";
+    Scouts.style.borderColor = "rgb(145, 107, 242)";
+    Scouts.classList.add('scale-up-center');
 }
 });
