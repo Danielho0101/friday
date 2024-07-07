@@ -1,3 +1,9 @@
+body{
+  height: 100%;
+  margin: 0;
+}
+
+
 .container {
      display: flex;
     flex-wrap: wrap; 
@@ -29,8 +35,8 @@
   font-weight: bold;
   border-radius: 30px;
   font-size: 47px;
-  margin-bottom: 1px;
-  margin-left: 30px;
+  /* margin-bottom: 1px; */
+  /* margin-left: 30px; */
 }
 
 .FourWorditem{
@@ -44,8 +50,8 @@
   font-weight: bold;
   border-radius: 30px;
   font-size: 59px;
-  margin-bottom: 1px;
-  margin-left: 30px;
+  /* margin-bottom: 1px; */
+  /* margin-left: 30px; */
 }
 
   .flow-item {
@@ -127,7 +133,7 @@
     border: 4px solid rgb(145, 107, 242);
     position: absolute;
     left: 10px;
-    top: 20px;
+    top: 13px;
     border-radius: 15px;
     font-weight: bold;
   }
@@ -138,7 +144,8 @@
     position: fixed;
     left: 960px;
     bottom: 1px;
-    top:1px
+    top:1px;
+    width: 50%;
   }
   
   .other-group{
@@ -146,9 +153,163 @@
     position: fixed;
     width: 50%;
     background-color: rgb(177, 217, 255);
+    height: 100%;
 
   }
 
 .row{
   margin-left: 38px;
+}
+
+@media screen and (min-height: 915px) {
+
+  .row{
+    margin-left: 38px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .background1{
+    margin-top: 40px;
+  }
+
+  .background{
+    margin-top: 40px;
+  }
+
+  .AfterSchool{
+    font-size: 60px;
+    color:purple;
+    background-color: rgb(230, 204, 255);
+    border: 4px solid rgb(145, 107, 242);
+    position: absolute;
+    left: 10px;
+    top: 13px;
+    border-radius: 15px;
+    font-weight: bold;
+    margin-top: 40px;
+  }
+
+  .Not{
+    font-size: 60px;
+    position: absolute;
+    left: 753px;
+    top:13px;
+    background-color: orange;
+    color: white;
+    border: 4px solid red;
+    border-radius: 15px;
+    font-weight: bold;
+    margin-top: 40px;
+  }
+
+  .item{
+    border: 4px solid red;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 30px;
+    font-size: 60px;
+    padding: 25px;
+    width: 280px;
+    margin: 10px 10px 10px 0px;
+  }
+  
+  .FiveWorditem{
+    border: 4px solid red;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 30px;
+    font-size: 45px;
+    padding: 23px;
+    width: 280px;
+    margin: 10px 10px 10px 0px;
+}
+  
+  .FourWorditem{
+    border: 4px solid red;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 30px;
+    font-size: 55px;
+    padding: 25px;
+    width: 280px;
+  }
+
+  
+  .fixTeam{
+    font-size: 177px;
+    color: navy;
+    display: block;
+    width: fit-content;
+    font-weight: bold;
+    top: -56px;
+    position: relative;
+  }
+  
+  .flowTeam{
+    font-size: 177px;
+    position: relative;
+    top: -56px;
+    left: 424px;
+    color: green;
+    width: fit-content;
+    font-weight: bold;
+  }
+
+  .AfterSchool{
+    font-size: 87px;
+    color:purple;
+    background-color: rgb(230, 204, 255);
+    border: 4px solid rgb(145, 107, 242);
+    position: absolute;
+    left: 10px;
+    top: 13px;
+    border-radius: 15px;
+    font-weight: bold;
+  }
+
+  .Not{
+    font-size: 87px;
+    position: absolute;
+    left: 679px;
+    top: 13px;
+    background-color: orange;
+    color: white;
+    border: 4px solid red;
+    border-radius: 15px;
+    font-weight: bold;
+  }
+
+  .box{
+    top: -67px;
+    left: 58px;
+    position: relative;
+  }
+
+  .box1{
+    top: -87px;
+    position: relative;
+  }
+
+  .flow-item {
+    border: 4px solid red;
+    color: white;
+    padding: 11px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 15%;
+    font-size: 151px;
+    width: fit-content;
+    margin-right: 3px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+  }
+
+  .row1{
+    margin: -9px;
+  }
 }
